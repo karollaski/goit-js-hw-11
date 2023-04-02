@@ -63,7 +63,7 @@ form.addEventListener('submit', async e => {
   e.preventDefault();
   gallery.innerHTML = '';
   const { searchQuery } = e.currentTarget;
-  searchInput = searchQuery.value.trim();
+  const searchInput = searchQuery.value.trim();
   try {
     const data = await getPhotos(
       searchInput,
