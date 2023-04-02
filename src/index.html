@@ -3,21 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Photo Search</title>
     <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <form class="search-form" id="search-form">
-      <input
-        type="text"
-        name="searchQuery"
-        autocomplete="off"
-        placeholder="Search images..."
-      />
-      <button type="submit">Search</button>
-      <div class="gallery"></div>
-    </form>
-
-    <script type="module" src="./index.js"></script>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <include src="./partials/form.html"></include>
+    <include src="./partials/gallery.html"></include>
+    <include src="./partials/btnLoadMore.html"></include>
   </body>
 </html>

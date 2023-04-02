@@ -1,0 +1,16 @@
+.btn_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.load-more {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  background-color: rgb(26, 137, 201);
+  color: #fff;
+}
